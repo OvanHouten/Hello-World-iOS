@@ -1,5 +1,6 @@
+//
 //  main.m
-//  MacApp
+//  IphoneApp
 //
 //  Olaf van Houten
 //  10424598
@@ -9,16 +10,13 @@
 //  Copyright (c) 2014 Olaf van Houten. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-int main(int argc, const char * argv[])
+#import "AppDelegate.h"
+
+int main(int argc, char * argv[])
 {
-
     @autoreleasepool {
-        
-        NSLog(@"Hello, FirstApp!");
-        
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
-    return 0;
 }
-
